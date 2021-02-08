@@ -5,9 +5,8 @@ import { Provider } from "react-redux";
 import RecipesDetailsScreen from "./src/components/RecipesEpic/RecipeDetailsScreen";
 import RecipesListScreen from "./src/components/RecipesEpic/RecipesListScreen";
 import store from "./src/redux/store";
-import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
 
-const Stack = createSharedElementStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
