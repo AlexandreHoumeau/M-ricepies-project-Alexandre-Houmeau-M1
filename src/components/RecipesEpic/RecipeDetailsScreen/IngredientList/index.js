@@ -23,7 +23,7 @@ const IngredientList = ({recipe}) => {
               }}
             />
             <Text style={styles.subtitle}>
-              {element.aisle} {element.amount} {element.cup}
+              {element.aisle} {Math.round(element.amount)} {element.cup}
             </Text>
           </View>
         ))}
